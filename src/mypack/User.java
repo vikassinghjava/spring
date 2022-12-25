@@ -9,6 +9,8 @@ public class User
 {
    public static void main(String[] args) 
    {
+	   
+	   //new logic i have start to implement
 	  Configuration cfg=new Configuration().configure();
 	  SessionFactory fac=cfg.buildSessionFactory();
 	  Session session=fac.openSession();
