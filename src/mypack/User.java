@@ -1,5 +1,5 @@
 package mypack;
-package mypackadd;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -9,8 +9,14 @@ public class User
 {
    public static void main(String[] args) 
    {
+
 	   
 	   //new logic i have start to implement
+
+                   System.out.println("hello hibernate!!!");
+				   System.out.println("hello hibernate!!!");
+				   System.out.println("hello hibernate!!!");
+
 	  Configuration cfg=new Configuration().configure();
 	  SessionFactory fac=cfg.buildSessionFactory();
 	  Session session=fac.openSession();
