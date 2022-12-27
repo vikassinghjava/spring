@@ -10,6 +10,7 @@ public class User
    public static void main(String[] args) 
    {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 	   
 	   //new logic i have start to implement
@@ -18,6 +19,9 @@ public class User
 				   System.out.println("hello hibernate!!!");
 				   System.out.println("hello hibernate!!!");
 
+=======
+	   System.out.println("hello user");
+>>>>>>> Stashed changes
 =======
 	   System.out.println("hello user");
 >>>>>>> Stashed changes
