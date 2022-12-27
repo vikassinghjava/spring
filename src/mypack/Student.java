@@ -20,6 +20,7 @@ public int getFee() {
 }
 public void setFee(int fee) {
 	this.fee = fee;
+	System.out.println("hello student");
 }
-
+ 
 }
