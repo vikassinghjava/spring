@@ -3,6 +3,7 @@ package mypack;
 public class Student extends Person
 {
   String course;
+  String address;
   int fee;
   Student(String name,String course,int fee)
   {	  super(name);
