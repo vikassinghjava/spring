@@ -9,6 +9,7 @@ public class User
 {
    public static void main(String[] args) 
    {
+<<<<<<< Updated upstream
 
 	   
 	   //new logic i have start to implement
@@ -17,6 +18,9 @@ public class User
 				   System.out.println("hello hibernate!!!");
 				   System.out.println("hello hibernate!!!");
 
+=======
+	   System.out.println("hello user");
+>>>>>>> Stashed changes
 	  Configuration cfg=new Configuration().configure();
 	  SessionFactory fac=cfg.buildSessionFactory();
 	  Session session=fac.openSession();
