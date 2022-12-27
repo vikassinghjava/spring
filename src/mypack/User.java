@@ -12,6 +12,7 @@ public class User
               
 
 	  Configuration cfg=new Configuration().configure();
+	   Configuration cfg=new Configuration().configure();
 	  SessionFactory fac=cfg.buildSessionFactory();
 	  Session session=fac.openSession();
 	  Transaction tr=session.beginTransaction();
