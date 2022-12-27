@@ -2,6 +2,7 @@ package mypack;
 
 public class Person 
 {
+	System.out.println("hello Person");
   int id; String name;
 Person(String name)
 {
